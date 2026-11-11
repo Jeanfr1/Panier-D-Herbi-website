@@ -1,0 +1,67 @@
+[
+  {
+    "viewport": 375,
+    "virtual_canvas_width": 375,
+    "desktop_scale": null,
+    "hero_title_px": 56,
+    "hero_basket_width_px": 365,
+    "hero_basket_height_px": 365,
+    "h1_advance_plus_tracking_px": 312.42,
+    "h1_text_box_px": 327,
+    "rayons_title_px": 43,
+    "rayons_max_line_px": 240.24,
+    "method": "static breakpoint contract and font advance/tracking calculation; excludes browser shaping, layout and screenshots"
+  },
+  {
+    "viewport": 768,
+    "virtual_canvas_width": 768,
+    "desktop_scale": null,
+    "hero_title_px": 68,
+    "hero_basket_width_px": 520,
+    "hero_basket_height_px": 520,
+    "h1_advance_plus_tracking_px": 379.37,
+    "h1_text_box_px": 410,
+    "rayons_title_px": 58,
+    "rayons_max_line_px": 471.66,
+    "method": "static breakpoint contract and font advance/tracking calculation; excludes browser shaping, layout and screenshots"
+  },
+  {
+    "viewport": 1024,
+    "virtual_canvas_width": 1024,
+    "desktop_scale": 1,
+    "hero_title_px": 80,
+    "hero_basket_width_px": 620,
+    "hero_basket_height_px": 620,
+    "h1_advance_plus_tracking_px": 446.32,
+    "h1_text_box_px": 490,
+    "rayons_title_px": 64,
+    "rayons_max_line_px": 520.45,
+    "method": "static breakpoint contract and font advance/tracking calculation; excludes browser shaping, layout and screenshots"
+  },
+  {
+    "viewport": 1440,
+    "virtual_canvas_width": 1024,
+    "desktop_scale": 1,
+    "hero_title_px": 80,
+    "hero_basket_width_px": 620,
+    "hero_basket_height_px": 620,
+    "h1_advance_plus_tracking_px": 446.32,
+    "h1_text_box_px": 490,
+    "rayons_title_px": 64,
+    "rayons_max_line_px": 520.45,
+    "method": "static breakpoint contract and font advance/tracking calculation; excludes browser shaping, layout and screenshots"
+  },
+  {
+    "viewport": 1920,
+    "virtual_canvas_width": 1024,
+    "desktop_scale": 1,
+    "hero_title_px": 80,
+    "hero_basket_width_px": 620,
+    "hero_basket_height_px": 620,
+    "h1_advance_plus_tracking_px": 446.32,
+    "h1_text_box_px": 490,
+    "rayons_title_px": 64,
+    "rayons_max_line_px": 520.45,
+    "method": "static breakpoint contract and font advance/tracking calculation; excludes browser shaping, layout and screenshots"
+  }
+]

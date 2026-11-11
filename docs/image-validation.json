@@ -1,0 +1,203 @@
+[
+  {
+    "file": "brand/Panier-D-Herbi-Logo-Transparente.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "bytes": 862198,
+    "fully_transparent_fraction": 0.5747
+  },
+  {
+    "file": "dist/assets/brand/logo.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "bytes": 862198,
+    "fully_transparent_fraction": 0.5747
+  },
+  {
+    "file": "dist/assets/images/boissons.webp",
+    "size": [
+      1402,
+      1122
+    ],
+    "mode": "RGBA",
+    "bytes": 389246,
+    "fully_transparent_fraction": 0.3619
+  },
+  {
+    "file": "dist/assets/images/epicerie.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "bytes": 420766,
+    "fully_transparent_fraction": 0.3774
+  },
+  {
+    "file": "dist/assets/images/facade.webp",
+    "size": [
+      2048,
+      1323
+    ],
+    "mode": "RGB",
+    "bytes": 2344728
+  },
+  {
+    "file": "dist/assets/images/hero.webp",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "bytes": 450972,
+    "fully_transparent_fraction": 0.3009
+  },
+  {
+    "file": "dist/assets/images/service.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "bytes": 347148,
+    "fully_transparent_fraction": 0.4707
+  },
+  {
+    "file": "dist/assets/images/snacks.webp",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "bytes": 532882,
+    "fully_transparent_fraction": 0.2149
+  },
+  {
+    "file": "images/campaign/boissons-rotulos-panier.png",
+    "size": [
+      1402,
+      1122
+    ],
+    "mode": "RGBA",
+    "bytes": 1914038,
+    "fully_transparent_fraction": 0.3619
+  },
+  {
+    "file": "images/campaign/epicerie-rotulos-panier.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "bytes": 1978248,
+    "fully_transparent_fraction": 0.3774
+  },
+  {
+    "file": "images/campaign/hero-rotulos-panier.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "bytes": 2177332,
+    "fully_transparent_fraction": 0.3009
+  },
+  {
+    "file": "images/campaign/service-rotulos-panier.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "bytes": 1739029,
+    "fully_transparent_fraction": 0.4707
+  },
+  {
+    "file": "images/campaign/snacks-rotulos-panier.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA",
+    "bytes": 2507913,
+    "fully_transparent_fraction": 0.2149
+  },
+  {
+    "file": "images/originals/cartaz-verao-referencia.png",
+    "size": [
+      1938,
+      1928
+    ],
+    "mode": "RGBA",
+    "bytes": 5767109
+  },
+  {
+    "file": "images/originals/facebook-identidade.png",
+    "size": [
+      2048,
+      1533
+    ],
+    "mode": "RGBA",
+    "bytes": 1450646
+  },
+  {
+    "file": "images/originals/facebook-servico.png",
+    "size": [
+      2048,
+      1397
+    ],
+    "mode": "RGBA",
+    "bytes": 1436363
+  },
+  {
+    "file": "images/originals/fachada.png",
+    "size": [
+      2048,
+      1323
+    ],
+    "mode": "RGBA",
+    "bytes": 5116053
+  },
+  {
+    "file": "images/originals/instagram-inverno.png",
+    "size": [
+      2048,
+      1466
+    ],
+    "mode": "RGBA",
+    "bytes": 2407017
+  },
+  {
+    "file": "references/Modelo1-Original-Escolhido.png",
+    "size": [
+      772,
+      2036
+    ],
+    "mode": "RGB",
+    "bytes": 2175962
+  },
+  {
+    "file": "references/Modelo1-Rotulos-Panier-D-Herbi.png",
+    "size": [
+      772,
+      2037
+    ],
+    "mode": "RGB",
+    "bytes": 2249038
+  },
+  {
+    "file": "references/concept-fornecido.png",
+    "size": [
+      998,
+      1350
+    ],
+    "mode": "RGBA",
+    "bytes": 1501656
+  }
+]

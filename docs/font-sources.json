@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.ttf",
+    "file": "fonts/BarlowCondensed-ExtraBoldItalic.ttf"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "file": "fonts/BarlowCondensed-SemiBold.ttf"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+    "file": "fonts/BarlowCondensed-OFL.txt"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+    "file": "fonts/DMSans-Variable.ttf"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+    "file": "fonts/DMSans-OFL.txt"
+  }
+]

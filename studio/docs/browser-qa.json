@@ -1,0 +1,596 @@
+{
+  "base": "http://localhost:4471/",
+  "date": "2026-11-11T09:05:52.133Z",
+  "results": [
+    {
+      "name": "1440x790 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b2"
+    },
+    {
+      "name": "1440x790 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "0.96 screens"
+    },
+    {
+      "name": "1440x790 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "1440x790 H1 ≤ 80px and basket ≤ 620px (board scale, never above)",
+      "pass": true,
+      "detail": "h1 80 basket 620"
+    },
+    {
+      "name": "1440x790 title ≤ 8% of width (kit contract: 80px at 1024)",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "name": "1440x790 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "160 KB"
+    },
+    {
+      "name": "1440x790 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:0.96 rayons:0.86 envies:0.21 livraison:0.78 commande:0.83 magasin:0.83 suivre:0.72 contact:0.44"
+    },
+    {
+      "name": "1280x650 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b2"
+    },
+    {
+      "name": "1280x650 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "1.00 screens"
+    },
+    {
+      "name": "1280x650 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "1280x650 H1 ≤ 80px and basket ≤ 620px (board scale, never above)",
+      "pass": true,
+      "detail": "h1 68.424 basket 530.28125"
+    },
+    {
+      "name": "1280x650 title ≤ 8% of width (kit contract: 80px at 1024)",
+      "pass": true,
+      "detail": "68.424"
+    },
+    {
+      "name": "1280x650 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1280x650 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1280x650 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1280x650 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1280x650 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "272 KB"
+    },
+    {
+      "name": "1280x650 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:1 rayons:0.93 envies:0.22 livraison:0.97 commande:0.96 magasin:1.1 suivre:0.81 contact:0.57"
+    },
+    {
+      "name": "1536x730 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b2"
+    },
+    {
+      "name": "1536x730 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "1.00 screens"
+    },
+    {
+      "name": "1536x730 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "1536x730 H1 ≤ 80px and basket ≤ 620px (board scale, never above)",
+      "pass": true,
+      "detail": "h1 76.84 basket 595.5"
+    },
+    {
+      "name": "1536x730 title ≤ 8% of width (kit contract: 80px at 1024)",
+      "pass": true,
+      "detail": "76.84"
+    },
+    {
+      "name": "1536x730 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1536x730 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1536x730 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1536x730 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1536x730 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "296 KB"
+    },
+    {
+      "name": "1536x730 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:1 rayons:0.9 envies:0.21 livraison:0.83 commande:0.9 magasin:0.89 suivre:0.76 contact:0.46"
+    },
+    {
+      "name": "1920x950 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b2"
+    },
+    {
+      "name": "1920x950 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "0.80 screens"
+    },
+    {
+      "name": "1920x950 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "1920x950 H1 ≤ 80px and basket ≤ 620px (board scale, never above)",
+      "pass": true,
+      "detail": "h1 80 basket 620"
+    },
+    {
+      "name": "1920x950 title ≤ 8% of width (kit contract: 80px at 1024)",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "name": "1920x950 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1920x950 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1920x950 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1920x950 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1920x950 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "247 KB"
+    },
+    {
+      "name": "1920x950 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:0.8 rayons:0.72 envies:0.17 livraison:0.65 commande:0.69 magasin:0.69 suivre:0.6 contact:0.36"
+    },
+    {
+      "name": "1024x768 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b2 | DIV.hero-stage | DIV.hero-basket | PICTURE. | IMG."
+    },
+    {
+      "name": "1024x768 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "0.99 screens"
+    },
+    {
+      "name": "1024x768 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "1024x768 H1 ≤ 80px and basket ≤ 620px (board scale, never above)",
+      "pass": true,
+      "detail": "h1 80 basket 620"
+    },
+    {
+      "name": "1024x768 title ≤ 8% of width (kit contract: 80px at 1024)",
+      "pass": true,
+      "detail": "80"
+    },
+    {
+      "name": "1024x768 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1024x768 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1024x768 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1024x768 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1024x768 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "247 KB"
+    },
+    {
+      "name": "1024x768 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:0.99 rayons:0.89 envies:0.21 livraison:0.81 commande:0.85 magasin:0.86 suivre:0.74 contact:0.45"
+    },
+    {
+      "name": "768x1024 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b2 | DIV.hero-stage | DIV.hero-basket | PICTURE. | IMG. | DIV.facade-frame | PICTURE. | IMG."
+    },
+    {
+      "name": "768x1024 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "0.56 screens"
+    },
+    {
+      "name": "768x1024 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "768x1024 H1 ≤ 80px and basket ≤ 620px (board scale, never above)",
+      "pass": true,
+      "detail": "h1 51 basket 405"
+    },
+    {
+      "name": "768x1024 title ≤ 8% of width (kit contract: 80px at 1024)",
+      "pass": true,
+      "detail": "51"
+    },
+    {
+      "name": "768x1024 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768x1024 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768x1024 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768x1024 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "768x1024 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "328 KB"
+    },
+    {
+      "name": "768x1024 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:0.56 rayons:0.53 envies:0.13 livraison:0.58 commande:0.6 magasin:0.68 suivre:0.69 contact:0.34"
+    },
+    {
+      "name": "390x844 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b1 | I.bokeh b2 | DIV.facade-frame | PICTURE. | IMG. | DIV.dusk"
+    },
+    {
+      "name": "390x844 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "1.00 screens"
+    },
+    {
+      "name": "390x844 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "390x844 H1 56px (50px under 381), basket ≤ 365px",
+      "pass": true,
+      "detail": "h1 56 basket 322"
+    },
+    {
+      "name": "390x844 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "218 KB"
+    },
+    {
+      "name": "390x844 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:1 rayons:0.77 envies:0.16 livraison:1 commande:1.21 magasin:0.98 suivre:0.91 contact:0.63"
+    },
+    {
+      "name": "360x740 no horizontal overflow",
+      "pass": true,
+      "detail": "overflow 0 I.bokeh b1 | I.bokeh b2 | DIV.facade-frame | PICTURE. | IMG. | DIV.dusk | I.glow g3"
+    },
+    {
+      "name": "360x740 hero ≤ 1 screen",
+      "pass": true,
+      "detail": "1.12 screens"
+    },
+    {
+      "name": "360x740 name and CTA in the first screen",
+      "pass": true,
+      "detail": "{\"name\":true,\"cta\":true}"
+    },
+    {
+      "name": "360x740 H1 56px (50px under 381), basket ≤ 365px",
+      "pass": true,
+      "detail": "h1 50 basket 294.390625"
+    },
+    {
+      "name": "360x740 no text under 11px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "360x740 no image upscaled beyond 1.3×",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "360x740 no console errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "360x740 no missing local files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "360x740 first load ≤ 1.5 MB",
+      "pass": true,
+      "detail": "298 KB"
+    },
+    {
+      "name": "360x740 scenes (screens)",
+      "pass": true,
+      "detail": "accueil:1.12 rayons:0.88 envies:0.18 livraison:1.15 commande:1.41 magasin:1.25 suivre:1.57 contact:0.72"
+    },
+    {
+      "name": "every href is an anchor, tel, mailto or https",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "every anchor target exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "external links open in a new tab with noopener",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no production notes in visible copy or alts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "phone, address, e-mail visible",
+      "pass": true,
+      "detail": "{\"phone\":true,\"address\":true,\"email\":true}"
+    },
+    {
+      "name": "Instagram, TikTok, Facebook, Maps buttons present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "winter hours match the supplied notice",
+      "pass": true,
+      "detail": "Lun 17h30 – 23h30 / Mar 17h30 – 23h30 / Mer Fermé / Jeu 17h30 – 23h30 / Ven 18h – 2h le lendemain / Sam 18h – 2h le lendemain / Dim 13h – 23h"
+    },
+    {
+      "name": "lang fr, title, description, og:image, icon, noindex",
+      "pass": true,
+      "detail": "{\"title\":\"Panier d’Herbi — Votre épicerie de proximité à Herbignac\",\"og\":\"https://panier-d-herbi-herbignac.vercel.app/brand/og-panier.jpg\"}"
+    },
+    {
+      "name": "1440x790 nav \"Le magasin\" lands on the section",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 hero CTA reaches the rayons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 rayon tab selects Boissons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 zoom dialog opens on Boissons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 Escape closes the dialog and focus returns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 map dialog opens gated (no iframe before consent)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 informations dialog shows the contacts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 sticky bar shows when scrolling up",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 pause button reverts the choreography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 resume rebuilds the choreography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440x790 no errors during interaction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 nav \"Le magasin\" lands on the section",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 hero CTA reaches the rayons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 rayon tab selects Boissons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 zoom dialog opens on Boissons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 Escape closes the dialog and focus returns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 map dialog opens gated (no iframe before consent)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 informations dialog shows the contacts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 sticky bar shows when scrolling up",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 pause button reverts the choreography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 resume rebuilds the choreography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "390x844 no errors during interaction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-JS: hours, phone, hero, bag scene, steps and nav visible",
+      "pass": true,
+      "detail": "{\"hours\":true,\"phone\":true,\"hero\":true,\"bag\":true,\"cards\":true,\"nav\":true}"
+    },
+    {
+      "name": "reduced motion: content visible, no choreography, pause button disabled",
+      "pass": true,
+      "detail": "{\"hero\":true,\"shelf\":true,\"social\":true,\"toggle\":true,\"nosplit\":true}"
+    }
+  ]
+}

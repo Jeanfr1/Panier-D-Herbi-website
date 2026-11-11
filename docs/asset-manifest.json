@@ -1,0 +1,191 @@
+[
+  {
+    "file": "brand/Panier-D-Herbi-Logo-Transparente.png",
+    "role": "current logo AI-assisted raster restoration; not official vector master",
+    "ai_generated_or_restored": true,
+    "bytes": 862198,
+    "sha256": "c1ba93e7782d7f4844968554e9911a83d133295feee0b7ab08cff7c32c3baad2"
+  },
+  {
+    "file": "dist/assets/brand/logo.png",
+    "role": "current logo AI-assisted raster restoration; not official vector master",
+    "ai_generated_or_restored": true,
+    "bytes": 862198,
+    "sha256": "c1ba93e7782d7f4844968554e9911a83d133295feee0b7ab08cff7c32c3baad2"
+  },
+  {
+    "file": "dist/assets/fonts/BarlowCondensed-ExtraBoldItalic.woff",
+    "role": "local OFL font",
+    "ai_generated_or_restored": false,
+    "bytes": 55052,
+    "sha256": "440d79456e1797289151a6df0900e1ba8f673117a981abceeaaa8221847a787d"
+  },
+  {
+    "file": "dist/assets/fonts/BarlowCondensed-SemiBold.woff",
+    "role": "local OFL font",
+    "ai_generated_or_restored": false,
+    "bytes": 51584,
+    "sha256": "9a61e64838b1c5c299935a3d76963a8440d6fb9ffa033e86be5c556e541bf0b4"
+  },
+  {
+    "file": "dist/assets/fonts/DMSans-Variable.woff",
+    "role": "local OFL font",
+    "ai_generated_or_restored": false,
+    "bytes": 109300,
+    "sha256": "e280338bae17dbad8572c44cbcaf450f4795a4d19b82426e524fcdd8887858df"
+  },
+  {
+    "file": "dist/assets/images/boissons.webp",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 389246,
+    "sha256": "58bb38786812851a4a79e280b4431237ca4d69fe6e4b8f2cbf7aad7926e06d7f"
+  },
+  {
+    "file": "dist/assets/images/epicerie.webp",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 420766,
+    "sha256": "69f8fca83d36890605b5c381ec00ddd13e6bc7b0b519a8090b0cb9558895cb8d"
+  },
+  {
+    "file": "dist/assets/images/facade.webp",
+    "role": "actual facade photograph; exact RGB pixels in lossless WebP; CSS framing",
+    "ai_generated_or_restored": false,
+    "bytes": 2344728,
+    "sha256": "5ac9a4dfd18358dd98f598f52b4768af25968e74d78364ffc210b6172425cf1a"
+  },
+  {
+    "file": "dist/assets/images/hero.webp",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 450972,
+    "sha256": "e3bb422a26ed566a1d734f8992226a25b8ba295bd4bb52c9825f30119daf64ce"
+  },
+  {
+    "file": "dist/assets/images/service.webp",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 347148,
+    "sha256": "d3746fef24b53edeb778bf233ffc06bbe40c3bd9eaa9949d95c56cc74dd56879"
+  },
+  {
+    "file": "dist/assets/images/snacks.webp",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 532882,
+    "sha256": "9f0f64493a97ebac2dbb5035beed2584a04b2205426496f693b8925e796af9f5"
+  },
+  {
+    "file": "fonts/BarlowCondensed-ExtraBoldItalic.ttf",
+    "role": "local OFL font",
+    "ai_generated_or_restored": false,
+    "bytes": 113004,
+    "sha256": "331783dae9ec0c398f4d32c9fd5a56d4c602caa0c1628c2b9cbfe93f48eb68c9"
+  },
+  {
+    "file": "fonts/BarlowCondensed-SemiBold.ttf",
+    "role": "local OFL font",
+    "ai_generated_or_restored": false,
+    "bytes": 109428,
+    "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+  },
+  {
+    "file": "fonts/DMSans-Variable.ttf",
+    "role": "local OFL font",
+    "ai_generated_or_restored": false,
+    "bytes": 240164,
+    "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+  },
+  {
+    "file": "images/campaign/boissons-rotulos-panier.png",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 1914038,
+    "sha256": "4d7992dc364ab88848bc34bc68b7c3560099555b4c87b0bc9f303b0f80b52d45"
+  },
+  {
+    "file": "images/campaign/epicerie-rotulos-panier.png",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 1978248,
+    "sha256": "c62694efc2d4e2fa89731c1113ac8fc511f97d41991505801340502cfd35e3fd"
+  },
+  {
+    "file": "images/campaign/hero-rotulos-panier.png",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 2177332,
+    "sha256": "89cc50ca4df14bfdd8c48248537e945f5825226790e22a74a8333525fb517cd2"
+  },
+  {
+    "file": "images/campaign/service-rotulos-panier.png",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 1739029,
+    "sha256": "cefe94a80970538cfb29ed6c5127ca23ed7ab2e680032bf63453c66d144897a6"
+  },
+  {
+    "file": "images/campaign/snacks-rotulos-panier.png",
+    "role": "illustrative labelled campaign cutout; not actual product stock",
+    "ai_generated_or_restored": true,
+    "bytes": 2507913,
+    "sha256": "38ca3d43a2fbde2b2767519a829b1f093752dc6c1efe047d303142f6f8404f8c"
+  },
+  {
+    "file": "images/originals/cartaz-verao-referencia.png",
+    "role": "unaltered supplied original/reference screenshot",
+    "ai_generated_or_restored": false,
+    "bytes": 5767109,
+    "sha256": "9d424201c5f375cf178284212dbe9d7a74e8998360a82a39b7fcb22b55e01b53"
+  },
+  {
+    "file": "images/originals/facebook-identidade.png",
+    "role": "unaltered supplied original/reference screenshot",
+    "ai_generated_or_restored": false,
+    "bytes": 1450646,
+    "sha256": "42e8f47d45559f43db09138e4a7230f9252f7627696905ca18355fa8a1fc2207"
+  },
+  {
+    "file": "images/originals/facebook-servico.png",
+    "role": "unaltered supplied original/reference screenshot",
+    "ai_generated_or_restored": false,
+    "bytes": 1436363,
+    "sha256": "9b9f302170eec81ce8c5f784ebc8dc58334e6c02efcd863f21d5164e0eab1f43"
+  },
+  {
+    "file": "images/originals/fachada.png",
+    "role": "unaltered supplied original/reference screenshot",
+    "ai_generated_or_restored": false,
+    "bytes": 5116053,
+    "sha256": "496787aaa2c0113aca5235f05b4e76192e470daf3f9437b0edffc437e0a0c066"
+  },
+  {
+    "file": "images/originals/instagram-inverno.png",
+    "role": "unaltered supplied original/reference screenshot",
+    "ai_generated_or_restored": false,
+    "bytes": 2407017,
+    "sha256": "cccf8989f530c955d2a2ebadc8001f8316c7834b0132e951ad0b7310544762d5"
+  },
+  {
+    "file": "references/Modelo1-Original-Escolhido.png",
+    "role": "original selected generated concept; not used as page background",
+    "ai_generated_or_restored": true,
+    "bytes": 2175962,
+    "sha256": "fc89b1c7ff05de869e340f5b5ca8e67a1d7b82c34cc964109029de2b3f0b436c"
+  },
+  {
+    "file": "references/Modelo1-Rotulos-Panier-D-Herbi.png",
+    "role": "generated revised concept board; user-requested labels; not HTML screenshot",
+    "ai_generated_or_restored": true,
+    "bytes": 2249038,
+    "sha256": "d3f2718a5f3ef21f18b4ea09b126c348dbfdb46859b8839d88382bb39842404b"
+  },
+  {
+    "file": "references/concept-fornecido.png",
+    "role": "user supplied style reference only",
+    "ai_generated_or_restored": false,
+    "bytes": 1501656,
+    "sha256": "45186df0bd00bc7e783c388d03411fde26de3cf57faba0353a577a94ef7c3f43"
+  }
+]

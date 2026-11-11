@@ -1,0 +1,39 @@
+{
+  "name": "Le Panier en Mouvement",
+  "video_generated": false,
+  "scroll": "native",
+  "pinning": false,
+  "hero": {
+    "copy_ms": 1000,
+    "copy_y_px": 16,
+    "basket_ms": 1600,
+    "basket_offset_px": [
+      20,
+      24
+    ],
+    "basket_rotation_deg": 2,
+    "breathing_ms": 8000,
+    "breathing_y_px": 5,
+    "breathing_rotation_deg": 0.25,
+    "layers": "one composite basket+ribbon+products cutout; not individual moving products"
+  },
+  "sections": {
+    "threshold": 0.12,
+    "reveal_ms": 800,
+    "offset_y_px": 17,
+    "once": true,
+    "service_window_ms": 1100
+  },
+  "shelf": {
+    "selection_y_px": 5,
+    "mobile": "native scroll snap; no wheel/touch interception",
+    "zoom": "native dialog"
+  },
+  "reduced_motion": {
+    "animations": false,
+    "transitions": false,
+    "smooth_scroll": false,
+    "content_visible": true
+  },
+  "manual_pause": "footer button; immediate content visibility; no persistence/tracking"
+}

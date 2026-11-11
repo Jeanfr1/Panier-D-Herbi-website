@@ -1,0 +1,28 @@
+file,role,ai_generated_or_restored,bytes,sha256
+brand/Panier-D-Herbi-Logo-Transparente.png,current logo AI-assisted raster restoration; not official vector master,True,862198,c1ba93e7782d7f4844968554e9911a83d133295feee0b7ab08cff7c32c3baad2
+dist/assets/brand/logo.png,current logo AI-assisted raster restoration; not official vector master,True,862198,c1ba93e7782d7f4844968554e9911a83d133295feee0b7ab08cff7c32c3baad2
+dist/assets/fonts/BarlowCondensed-ExtraBoldItalic.woff,local OFL font,False,55052,440d79456e1797289151a6df0900e1ba8f673117a981abceeaaa8221847a787d
+dist/assets/fonts/BarlowCondensed-SemiBold.woff,local OFL font,False,51584,9a61e64838b1c5c299935a3d76963a8440d6fb9ffa033e86be5c556e541bf0b4
+dist/assets/fonts/DMSans-Variable.woff,local OFL font,False,109300,e280338bae17dbad8572c44cbcaf450f4795a4d19b82426e524fcdd8887858df
+dist/assets/images/boissons.webp,illustrative labelled campaign cutout; not actual product stock,True,389246,58bb38786812851a4a79e280b4431237ca4d69fe6e4b8f2cbf7aad7926e06d7f
+dist/assets/images/epicerie.webp,illustrative labelled campaign cutout; not actual product stock,True,420766,69f8fca83d36890605b5c381ec00ddd13e6bc7b0b519a8090b0cb9558895cb8d
+dist/assets/images/facade.webp,actual facade photograph; exact RGB pixels in lossless WebP; CSS framing,False,2344728,5ac9a4dfd18358dd98f598f52b4768af25968e74d78364ffc210b6172425cf1a
+dist/assets/images/hero.webp,illustrative labelled campaign cutout; not actual product stock,True,450972,e3bb422a26ed566a1d734f8992226a25b8ba295bd4bb52c9825f30119daf64ce
+dist/assets/images/service.webp,illustrative labelled campaign cutout; not actual product stock,True,347148,d3746fef24b53edeb778bf233ffc06bbe40c3bd9eaa9949d95c56cc74dd56879
+dist/assets/images/snacks.webp,illustrative labelled campaign cutout; not actual product stock,True,532882,9f0f64493a97ebac2dbb5035beed2584a04b2205426496f693b8925e796af9f5
+fonts/BarlowCondensed-ExtraBoldItalic.ttf,local OFL font,False,113004,331783dae9ec0c398f4d32c9fd5a56d4c602caa0c1628c2b9cbfe93f48eb68c9
+fonts/BarlowCondensed-SemiBold.ttf,local OFL font,False,109428,7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9
+fonts/DMSans-Variable.ttf,local OFL font,False,240164,8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d
+images/campaign/boissons-rotulos-panier.png,illustrative labelled campaign cutout; not actual product stock,True,1914038,4d7992dc364ab88848bc34bc68b7c3560099555b4c87b0bc9f303b0f80b52d45
+images/campaign/epicerie-rotulos-panier.png,illustrative labelled campaign cutout; not actual product stock,True,1978248,c62694efc2d4e2fa89731c1113ac8fc511f97d41991505801340502cfd35e3fd
+images/campaign/hero-rotulos-panier.png,illustrative labelled campaign cutout; not actual product stock,True,2177332,89cc50ca4df14bfdd8c48248537e945f5825226790e22a74a8333525fb517cd2
+images/campaign/service-rotulos-panier.png,illustrative labelled campaign cutout; not actual product stock,True,1739029,cefe94a80970538cfb29ed6c5127ca23ed7ab2e680032bf63453c66d144897a6
+images/campaign/snacks-rotulos-panier.png,illustrative labelled campaign cutout; not actual product stock,True,2507913,38ca3d43a2fbde2b2767519a829b1f093752dc6c1efe047d303142f6f8404f8c
+images/originals/cartaz-verao-referencia.png,unaltered supplied original/reference screenshot,False,5767109,9d424201c5f375cf178284212dbe9d7a74e8998360a82a39b7fcb22b55e01b53
+images/originals/facebook-identidade.png,unaltered supplied original/reference screenshot,False,1450646,42e8f47d45559f43db09138e4a7230f9252f7627696905ca18355fa8a1fc2207
+images/originals/facebook-servico.png,unaltered supplied original/reference screenshot,False,1436363,9b9f302170eec81ce8c5f784ebc8dc58334e6c02efcd863f21d5164e0eab1f43
+images/originals/fachada.png,unaltered supplied original/reference screenshot,False,5116053,496787aaa2c0113aca5235f05b4e76192e470daf3f9437b0edffc437e0a0c066
+images/originals/instagram-inverno.png,unaltered supplied original/reference screenshot,False,2407017,cccf8989f530c955d2a2ebadc8001f8316c7834b0132e951ad0b7310544762d5
+references/Modelo1-Original-Escolhido.png,original selected generated concept; not used as page background,True,2175962,fc89b1c7ff05de869e340f5b5ca8e67a1d7b82c34cc964109029de2b3f0b436c
+references/Modelo1-Rotulos-Panier-D-Herbi.png,generated revised concept board; user-requested labels; not HTML screenshot,True,2249038,d3f2718a5f3ef21f18b4ea09b126c348dbfdb46859b8839d88382bb39842404b
+references/concept-fornecido.png,user supplied style reference only,False,1501656,45186df0bd00bc7e783c388d03411fde26de3cf57faba0353a577a94ef7c3f43

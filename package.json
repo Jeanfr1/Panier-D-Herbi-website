@@ -1,0 +1,13 @@
+{
+  "name": "panier-d-herbi-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs 4471",
+    "shots": "node scripts/shots.mjs",
+    "qa": "node scripts/qa.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.56.1"
+  }
+}

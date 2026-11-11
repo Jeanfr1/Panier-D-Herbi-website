@@ -1,0 +1,28 @@
+{
+  "status": "Visually inspected generated masters; not OCR or production-stock verification",
+  "requested_by_user": true,
+  "type": "Illustrative private-label campaign mockups",
+  "master_roles": {
+    "hero": "8 packaged products, basket plaque and 2 produce stickers marked Panier d’Herbi",
+    "epicerie": "5 packages labelled",
+    "boissons": "3 bottles labelled, including water",
+    "snacks": "3 packets labelled",
+    "service": "bag, juice bottle, tin, pasta pack and 2 produce stickers labelled"
+  },
+  "label_system": [
+    "cream panel",
+    "forest and lime current brand",
+    "smiling bag mascot",
+    "French category name",
+    "natural package material/perspective"
+  ],
+  "not_asserted": [
+    "actual private-label commercial range",
+    "current stock",
+    "price",
+    "organic/local certification",
+    "ingredients/nutrition",
+    "print-ready regulated packaging"
+  ],
+  "site_disclosure": "Visuels d’illustration · Produits et disponibilités à confirmer en magasin."
+}

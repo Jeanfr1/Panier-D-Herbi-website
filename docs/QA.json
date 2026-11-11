@@ -1,0 +1,922 @@
+{
+  "static_pass": true,
+  "checks": 182,
+  "passed": 182,
+  "failed": [],
+  "browser_qa": "UNVERIFIED",
+  "interaction_qa": "UNVERIFIED in browser; code implemented and syntax checked",
+  "preview_error": "sites-preview: preview relay unavailable: No such file or directory (os error 2)",
+  "label_audit": "visual inspection of generated masters; not actual inventory or OCR verification",
+  "checks_detail": [
+    {
+      "check": "dist/index.html: unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/fonts/BarlowCondensed-ExtraBoldItalic.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local styles.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local app.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #contenu",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #accueil",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #rayons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #service",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #magasin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-phone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #rayons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-arrow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #magasin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-pin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: intrinsic image ratio assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #rayons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: intrinsic image ratio assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: intrinsic image ratio assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: intrinsic image ratio assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-arrow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/service.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/facade.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/images/facade.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: intrinsic image ratio assets/images/facade.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-phone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: safe external rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-pin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: safe external rel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-instagram",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #accueil",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: local assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: alt assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: intrinsic image ratio assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "dist/index.html: anchor #icon-arrow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: unique IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local docs/QA.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt dist/assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt dist/assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt dist/assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt dist/assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local references/Modelo1-Rotulos-Panier-D-Herbi.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt references/Modelo1-Rotulos-Panier-D-Herbi.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local references/Modelo1-Original-Escolhido.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: alt references/Modelo1-Original-Escolhido.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local dist/index.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local roteiros/01-DIRECAO-DE-ARTE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local roteiros/02-HERO-E-ANIMACAO.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local roteiros/03-SECOES-E-DIVISOES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local roteiros/04-CONTEUDO-E-FLUXOS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local roteiros/05-ROTULOS-E-ASSETS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local roteiros/06-VALIDACAO-E-ENTREGA.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "GUIA-VISUAL.html: local docs/QA.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSS asset assets/fonts/BarlowCondensed-ExtraBoldItalic.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSS asset assets/fonts/BarlowCondensed-SemiBold.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSS asset assets/fonts/DMSans-Variable.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSS asset assets/images/facade.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "CSS balanced braces",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "French public language",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No Portuguese fragments in public copy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Five chapters exactly",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected hero and structure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Original and revised board not used as page",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No 100vh pinned chapters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Hero dimension explicit and natural ratio",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Desktop cap declared",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Native scroll not intercepted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Reduced motion plus pause",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Dialog focus returned",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Phone matches supplied business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Address matches supplied business",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Current Instagram handle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Winter notice and hours preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Wednesday closed markup",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No old summer hours in public page",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Illustrative products disclosed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No checkout, form, video, iframe or fake confirmation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No remote scripts or font calls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "All three labelled family assets used",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Native service slot mask present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: brand/Panier-D-Herbi-Logo-Transparente.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: dist/assets/brand/logo.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: dist/assets/images/boissons.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: dist/assets/images/epicerie.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/images/facade.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: dist/assets/images/hero.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/images/service.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: dist/assets/images/service.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: dist/assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: dist/assets/images/snacks.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/campaign/boissons-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: images/campaign/boissons-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/campaign/epicerie-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: images/campaign/epicerie-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/campaign/hero-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: images/campaign/hero-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/campaign/service-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: images/campaign/service-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/campaign/snacks-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "True alpha: images/campaign/snacks-rotulos-panier.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/originals/cartaz-verao-referencia.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/originals/facebook-identidade.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/originals/facebook-servico.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/originals/fachada.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: images/originals/instagram-inverno.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: references/Modelo1-Original-Escolhido.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: references/Modelo1-Rotulos-Panier-D-Herbi.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Image decodes: references/concept-fornecido.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Facade lossless exact RGB equality",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Photographic source attribution retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: motion/timeline.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: .openai/hosting.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/label-inventory.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/image-validation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/selection.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/source-video-inventory.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/architecture-lock.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/project-state.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/generation-prompts.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/scale-contract.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/source-photo-inventory.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/font-sources.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/business-sources.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/asset-manifest.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/scale-measurements.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: docs/QA.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON parses: brand/tokens.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Font decodes: BarlowCondensed-SemiBold.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Font decodes: BarlowCondensed-ExtraBoldItalic.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Font decodes: DMSans-Variable.woff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "OFL license: DMSans-OFL.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "OFL license: BarlowCondensed-OFL.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "French display glyphs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "H1 fits contract at 375px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Rayons heading fits at 375px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "H1 fits contract at 768px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Rayons heading fits at 768px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "H1 fits contract at 1024px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Rayons heading fits at 1024px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "H1 fits contract at 1440px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Rayons heading fits at 1440px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "H1 fits contract at 1920px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Rayons heading fits at 1920px",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Desktop size unchanged at 1024/1440/1920",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Production script 01-DIRECAO-DE-ARTE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Production script 02-HERO-E-ANIMACAO.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Production script 03-SECOES-E-DIVISOES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Production script 04-CONTEUDO-E-FLUXOS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Production script 05-ROTULOS-E-ASSETS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Production script 06-VALIDACAO-E-ENTREGA.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "JavaScript syntax",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

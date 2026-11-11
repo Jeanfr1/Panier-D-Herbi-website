@@ -1,0 +1,35 @@
+{
+  "baseline": 1024,
+  "max_desktop_scale": 1,
+  "targets": [
+    375,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "desktop": {
+    "h1_px": 80,
+    "basket_px": 620,
+    "facade_principal_width_px": 850,
+    "logo_width_px": 184
+  },
+  "tablet": {
+    "h1_px": 68,
+    "basket_px": 520
+  },
+  "mobile": {
+    "breakpoint": 680,
+    "h1_px": 56,
+    "basket_px": 365,
+    "strategy": "text above basket; extra rayon title break <=400; native shelf scroll"
+  },
+  "forbidden": [
+    "viewport divided by raster width 772",
+    "whole board image as site",
+    "hero cover to fill arbitrary viewport",
+    "100vh pinning"
+  ],
+  "background_exception": "Ambient blurry facade background may fill width; principal photograph keeps explicit width",
+  "verification": "static declaration checks and font metrics; browser unavailable"
+}

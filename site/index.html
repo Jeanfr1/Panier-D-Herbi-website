@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#00683D"><title>Panier d’Herbi — Votre épicerie de proximité à Herbignac</title>
+  <meta name="description" content="Le quotidien, en plus simple. Panier d’Herbi, épicerie de proximité au 13 place du Général d’Argence à Herbignac : ouvert le soir, tard le week-end, livraison à domicile sur demande.">
+  <!-- TODO(panier): when the client domain is live, drop noindex (here, vercel.json, robots.txt), add canonical and og:url, and move og:image to that domain -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="website"><meta property="og:title" content="Panier d’Herbi — Le quotidien, en plus simple."><meta property="og:description" content="Épicerie de proximité à Herbignac. Ouvert le soir, livraison à domicile sur demande."><meta property="og:image" content="https://panier-d-herbi-herbignac.vercel.app/brand/og-panier.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="fr_FR">
+  <link rel="icon" href="brand/favicon-32.png" type="image/png" sizes="32x32"><link rel="icon" href="brand/icon-64.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="brand/icon-180.png">
+  <link rel="preload" href="fonts/BarlowCondensed-ExtraBoldItalic.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="images/hero.webp" as="image" fetchpriority="high" media="(min-width:721px)">
+  <link rel="stylesheet" href="styles.css">
+  <script>/* Hide the hero only while the intro is about to play; never longer than 3.5 s. */
+  (function(){try{var d=document.documentElement,r=matchMedia('(prefers-reduced-motion: reduce)').matches,s=navigator.connection&&navigator.connection.saveData,p=localStorage.getItem('panier.motion.paused')==='1';if(!r&&!s&&!p&&scrollY<30){d.classList.add('intro');setTimeout(function(){d.classList.remove('intro')},3500)}}catch(e){}})();</script>
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="vendor/gsap.min.js" defer></script><script src="vendor/ScrollTrigger.min.js" defer></script><script src="motion.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"GroceryStore","name":"Panier d’Herbi","telephone":"+33666533792","email":"lepanierdeherbi@gmail.com","address":{"@type":"PostalAddress","streetAddress":"13 place du Général d’Argence","postalCode":"44410","addressLocality":"Herbignac","addressCountry":"FR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Thursday"],"opens":"17:30","closes":"23:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"18:00","closes":"02:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"13:00","closes":"23:00"}],"sameAs":["https://www.instagram.com/panier_dherbi/","https://www.tiktok.com/@panierdherbi"]}</script>
+</head>
+<body>
+  <a class="skip" href="#rayons">Aller au contenu</a>
+  <svg class="defs" aria-hidden="true" focusable="false"><defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4.1-2 1.5a12 12 0 0 0 6.3 6.3l1.5-2 4.1 1.4v2.6a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.3" fill="none" stroke="currentColor" stroke-width="1.9"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.4" y="5.4" width="17.2" height="13.2" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="m4.4 7 7.6 6 7.6-6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 7.4V12l3.2 2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 3.5c.3 2.4 1.9 4 4.3 4.2v3.1c-1.6 0-3-.5-4.3-1.4v6a5.4 5.4 0 1 1-5.4-5.4c.4 0 .8 0 1.1.1v3.2a2.3 2.3 0 1 0 1.2 2V3.5H14Z" fill="currentColor"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M13.6 21v-7.2h2.4l.4-2.9h-2.8V9.1c0-.8.3-1.4 1.4-1.4h1.5V5.1c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.1H8.2v2.9h2.4V21h3Z" fill="currentColor"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.6 2.5 5.3 5.8.7-4.3 4 1.1 5.8L12 16.6l-5.1 2.8 1.1-5.8-4.3-4 5.8-.7L12 3.6Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5.5 8.5h13l-1 11.5h-11l-1-11.5Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5" fill="none" stroke="currentColor" stroke-width="1.9"/></symbol>
+    <symbol id="i-scooter" viewBox="0 0 24 24"><circle cx="6" cy="16.5" r="2.6" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="18" cy="16.5" r="2.6" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M8.6 16.5h6.8M14 7h2.6l1.8 9.5M4.5 12h5.3l1.2 4.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-basket" viewBox="0 0 24 24"><path d="M3.5 10h17l-1.6 9.5H5.1L3.5 10Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="m7.5 10 3-6m6 6-3-6M9 13.5v3m3-3v3m3-3v3" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 40 40"><path d="M6 30 15 20M12 34l6-13M24 36l2-12" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></symbol>
+  </defs></svg>
+
+  <div class="sticky-bar" aria-hidden="true" inert>
+    <a class="bar-brand" href="#accueil"><span class="bar-ring" aria-hidden="true"></span><img src="brand/mascot.webp" width="480" height="480" alt=""><span>Panier d’Herbi</span></a>
+    <div class="bar-actions"><a class="button button-forest" href="tel:+33666533792"><svg aria-hidden="true"><use href="#i-phone"/></svg>Appeler</a><a class="button button-outline" href="#magasin"><svg aria-hidden="true"><use href="#i-clock"/></svg>Horaires</a></div>
+  </div>
+
+  <main id="contenu">
+    <!-- 1 · HERO · Le quotidien, en plus simple -->
+    <section id="accueil" class="hero" data-scene="le-panier-se-remplit" aria-labelledby="hero-title">
+      <div class="hero-light" aria-hidden="true"><i class="bokeh b1"></i><i class="bokeh b2"></i><i class="bokeh b3"></i></div>
+      <div class="canvas hero-canvas">
+        <header class="header">
+          <a class="brand" href="#accueil" aria-label="Panier d’Herbi, accueil"><img src="brand/logo.webp" width="640" height="320" alt="Panier d’Herbi — Accueil & Service"></a>
+          <nav class="desktop-nav" aria-label="Navigation principale"><a href="#rayons">Les rayons</a><a href="#livraison">Livraison</a><a href="#magasin">Le magasin</a><a href="#contact">Contact</a><a class="button button-forest" href="tel:+33666533792"><svg aria-hidden="true"><use href="#i-phone"/></svg>Nous appeler</a></nav>
+          <details class="mobile-nav"><summary>Menu <span aria-hidden="true">☰</span></summary><nav aria-label="Navigation mobile"><a href="#rayons">Les rayons</a><a href="#livraison">Livraison à domicile</a><a href="#commande">Comment ça marche</a><a href="#magasin">Le magasin & horaires</a><a href="#suivre">Nous suivre</a><a href="#contact">Contact</a><a href="tel:+33666533792">Appeler le 06 66 53 37 92</a></nav></details>
+        </header>
+        <div class="hero-copy">
+          <p class="eyebrow">Votre commerce de quartier · Herbignac</p>
+          <h1 id="hero-title"><span>LE QUOTIDIEN,</span><span>EN PLUS SIMPLE.</span></h1>
+          <svg class="swoosh" viewBox="0 0 310 18" aria-hidden="true"><path d="M3 14C70 4 180 1 306 7c-100 0-190 4-280 11-9 1-20-1-23-4Z" fill="#A5C925"/></svg>
+          <p class="hero-lead">Votre épicerie de proximité <br>à Herbignac. Ouverte le soir, <br>tard le week-end.</p>
+          <div class="hero-actions"><a class="button button-forest" href="#rayons">Découvrir les rayons <svg aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="button button-outline" href="#magasin"><svg aria-hidden="true"><use href="#i-pin"/></svg>Venir au magasin</a></div>
+          <p class="hero-promise">Accueil & Service<svg class="mini-swoosh" viewBox="0 0 90 10" aria-hidden="true"><path d="M2 8C25 2 60 1 88 4c-30 0-55 2-80 6-4 1-7-1-6-2Z" fill="#A5C925"/></svg></p>
+        </div>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="fly fly-epicerie"><img src="images/epicerie.webp" width="1000" height="750" alt=""></div>
+          <div class="fly fly-boissons"><img src="images/boissons.webp" width="900" height="720" alt=""></div>
+          <div class="fly fly-snacks"><img src="images/snacks.webp" width="1000" height="750" alt=""></div>
+          <span class="hero-ring"></span>
+          <div class="hero-basket"><picture><source media="(max-width:720px)" srcset="images/hero-m.webp"><img src="images/hero.webp" width="1100" height="1100" alt="" fetchpriority="high" decoding="async"></picture></div>
+        </div>
+        <a class="hero-scroll" href="#rayons">Le plein de petites envies <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <!-- 2 · RAYONS · Petites envies, grandes trouvailles -->
+    <section id="rayons" class="rayons" data-scene="le-panier-se-vide" aria-labelledby="rayons-title">
+      <div class="canvas rayons-canvas">
+        <div class="rayons-head"><p class="eyebrow">01 / À chacun ses envies</p><h2 id="rayons-title" class="split">PETITES ENVIES.<br>GRANDES TROUVAILLES.</h2><svg class="spark" viewBox="0 0 40 40" aria-hidden="true"><use href="#i-spark"/></svg></div>
+        <div class="rayon-heading">
+          <div class="rayon-controls" role="tablist" aria-label="Explorer les rayons"><button class="is-active" type="button" role="tab" data-rayon="epicerie" aria-selected="true" id="tab-epicerie">Épicerie</button><span aria-hidden="true">·</span><button type="button" role="tab" data-rayon="boissons" aria-selected="false" id="tab-boissons" tabindex="-1">Boissons</button><span aria-hidden="true">·</span><button type="button" role="tab" data-rayon="snacks" aria-selected="false" id="tab-snacks" tabindex="-1">Snacks</button></div>
+          <p id="rayon-copy" aria-live="polite">Les essentiels du placard, à retrouver en magasin.</p>
+        </div>
+        <div class="shelf-track" id="shelf-track" aria-label="Les trois rayons, à faire défiler sur mobile">
+          <figure class="shelf-group is-selected" id="rayon-epicerie"><button class="product-zoom" type="button" data-preview="epicerie" aria-label="Agrandir le rayon Épicerie"><img src="images/epicerie.webp" width="1000" height="750" alt="Pâtes, riz et conserves aux couleurs Panier d’Herbi." loading="lazy" decoding="async"></button><figcaption><span>01</span> Épicerie <i aria-hidden="true">＋</i></figcaption></figure>
+          <figure class="shelf-group" id="rayon-boissons"><button class="product-zoom" type="button" data-preview="boissons" aria-label="Agrandir le rayon Boissons"><img src="images/boissons.webp" width="900" height="720" alt="Bouteilles d’eau et de jus aux couleurs Panier d’Herbi." loading="lazy" decoding="async"></button><figcaption><span>02</span> Boissons <i aria-hidden="true">＋</i></figcaption></figure>
+          <figure class="shelf-group" id="rayon-snacks"><button class="product-zoom" type="button" data-preview="snacks" aria-label="Agrandir le rayon Snacks"><img src="images/snacks.webp" width="1000" height="750" alt="Biscuits et chips aux couleurs Panier d’Herbi." loading="lazy" decoding="async"></button><figcaption><span>03</span> Snacks <i aria-hidden="true">＋</i></figcaption></figure>
+        </div>
+        <svg class="shelf-floor" viewBox="0 0 1024 120" preserveAspectRatio="none" aria-hidden="true"><path class="shelf-top" d="M0 78h312l22-26h318l22-26h350v94H0z" fill="#A5C925"/><path class="shelf-lip" d="M0 78h312l22-26h318l22-26h350v10H684l-22 26H344l-22 26H0z" fill="#C6E634"/><path class="shelf-shadow" d="M0 110h1024v10H0z" fill="#00683D" opacity=".18"/></svg>
+        <p class="shelf-note">Sélection présentée à titre indicatif · Produits et disponibilités en magasin.</p>
+      </div>
+    </section>
+
+    <!-- 3 · MARQUEE · Produits du quotidien -->
+    <section id="envies" class="marquee-scene" data-scene="ruban-de-courses" aria-label="Ce que vous trouvez au magasin">
+      <div class="marquee" data-dir="1"><div class="marquee-track"><span>Produits du quotidien</span><i>•</i><span>Boissons</span><i>•</i><span>Snacks</span><i>•</i><span>Produits frais</span><i>•</i><span>Et bien plus encore</span><i>•</i></div></div>
+      <div class="marquee marquee-outline" data-dir="-1" aria-hidden="true"><div class="marquee-track"><span>Ouvert le soir</span><i>•</i><span>Livraison à domicile</span><i>•</i><span>Accueil & Service</span><i>•</i><span>Place du Général d’Argence</span><i>•</i></div></div>
+    </section>
+
+    <!-- 4 · LIVRAISON · Un coup de main, ça change tout -->
+    <section id="livraison" class="service" data-scene="le-sac-par-les-fentes" aria-labelledby="service-title">
+      <div class="canvas service-canvas">
+        <div class="service-copy">
+          <p class="eyebrow">02 / Livraison à domicile</p>
+          <h2 id="service-title" class="split">UN COUP DE MAIN,<br>ÇA CHANGE TOUT.</h2>
+          <svg class="swoosh swoosh-light" viewBox="0 0 310 18" aria-hidden="true"><path d="M3 14C70 4 180 1 306 7c-100 0-190 4-280 11-9 1-20-1-23-4Z" fill="#C6E634"/></svg>
+          <p class="service-lead">Vos courses livrées chez vous, sur demande. Nos livreurs déposent votre plein de courses avec le sourire.</p>
+          <p class="service-text">Un appel suffit pour connaître les modalités : jours, créneaux et zone desservie.</p>
+          <div class="service-actions"><a class="button button-lime" href="tel:+33666533792"><svg aria-hidden="true"><use href="#i-phone"/></svg>Nous appeler</a><a class="button button-ghost" href="#commande">Comment ça marche <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+        </div>
+        <div class="service-window" aria-hidden="true">
+          <svg class="defs" aria-hidden="true"><clipPath id="basket-slots" clipPathUnits="objectBoundingBox"><rect x=".015" y=".04" width=".115" height=".92" rx=".055" ry=".075"/><rect x=".165" y=".02" width=".16" height=".96" rx=".06" ry=".08"/><rect x=".36" y="0" width=".41" height="1" rx=".065" ry=".085"/><rect x=".805" y=".02" width=".18" height=".96" rx=".065" ry=".08"/></clipPath></svg>
+          <div class="window-clip"><div class="window-scene"><img src="images/service.webp" width="1000" height="750" alt="" loading="lazy" decoding="async"></div><div class="slats"><i style="left:0;width:15%"></i><i style="left:15%;width:19%"></i><i style="left:34%;width:45%"></i><i style="left:79%;width:21%"></i></div></div>
+          <div class="badge-spin"><svg viewBox="0 0 160 160"><defs><path id="badge-path" d="M80 80m-58 0a58 58 0 1 1 116 0a58 58 0 1 1-116 0"/></defs><text><textPath href="#badge-path">Livraison à domicile • sur demande • Herbignac • </textPath></text></svg><svg class="badge-icon" aria-hidden="true"><use href="#i-scooter"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · COMMENT ÇA MARCHE · Le panier en trois gestes -->
+    <section id="commande" class="steps-scene" data-scene="trois-gestes" aria-labelledby="steps-title">
+      <svg class="seam seam-steps" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h1440v34C1180 70 980 86 720 86S260 70 0 34V0Z" fill="#00683D"/></svg>
+      <div class="canvas steps-canvas">
+        <div class="steps-head"><p class="eyebrow">03 / Comment ça marche</p><h2 id="steps-title" class="split">LE PANIER,<br>EN TROIS GESTES.</h2></div>
+        <ol class="steps">
+          <li class="step"><span class="step-no">01</span><span class="step-icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><h3>Vous appelez</h3><p>Dites-nous ce qu’il vous faut au <a href="tel:+33666533792">06 66 53 37 92</a>, pendant les heures d’ouverture.</p></li>
+          <li class="step"><span class="step-no">02</span><span class="step-icon"><svg aria-hidden="true"><use href="#i-basket"/></svg></span><h3>On prépare votre panier</h3><p>Épicerie, boissons, snacks, produits frais : on rassemble vos courses au magasin.</p></li>
+          <li class="step"><span class="step-no">03</span><span class="step-icon"><svg aria-hidden="true"><use href="#i-scooter"/></svg></span><h3>Livré ou à retirer</h3><p>On vous livre à domicile selon les modalités convenues, ou vous passez au 13 place du Général d’Argence.</p></li>
+        </ol>
+        <svg class="steps-line" viewBox="0 0 1000 60" preserveAspectRatio="none" aria-hidden="true"><path d="M20 30C200 0 330 60 500 30s300-30 480 0" fill="none" stroke="#A5C925" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 12"/></svg>
+        <p class="steps-fine">Jours, créneaux et zone de livraison : à confirmer avec le magasin lors de votre appel.</p>
+      </div>
+    </section>
+
+    <!-- 6 · MAGASIN · Le bon réflexe du quartier (jour → soir) -->
+    <section id="magasin" class="store-scene" data-scene="la-lumiere-reste-allumee" aria-labelledby="store-title">
+      <div class="store-bg" aria-hidden="true">
+        <div class="facade-frame"><picture><source media="(max-width:720px)" srcset="images/facade-m.webp"><img src="images/facade.webp" width="1800" height="1163" alt="" loading="lazy" decoding="async"></picture><div class="dusk"></div><i class="glow g1"></i><i class="glow g2"></i><i class="glow g3"></i></div>
+      </div>
+      <div class="canvas store-canvas">
+        <div class="store-copy"><p class="eyebrow">04 / Le magasin</p><h2 id="store-title" class="split">LE BON RÉFLEXE<br>DU QUARTIER.</h2><p class="store-lead">Quand les autres ferment, la lumière reste allumée place du Général d’Argence.</p><small class="photo-credit">© Google</small></div>
+        <div class="hours-panel">
+          <p class="hours-title"><svg aria-hidden="true"><use href="#i-clock"/></svg>Horaires d’hiver</p>
+          <table class="hours"><caption class="sr-only">Horaires d’ouverture</caption><tbody>
+            <tr data-day="1"><th scope="row">Lun</th><td>17h30 – 23h30</td></tr>
+            <tr data-day="2"><th scope="row">Mar</th><td>17h30 – 23h30</td></tr>
+            <tr data-day="3" class="closed"><th scope="row">Mer</th><td>Fermé</td></tr>
+            <tr data-day="4"><th scope="row">Jeu</th><td>17h30 – 23h30</td></tr>
+            <tr data-day="5"><th scope="row">Ven</th><td>18h – 2h<span class="sr-only"> le lendemain</span></td></tr>
+            <tr data-day="6"><th scope="row">Sam</th><td>18h – 2h<span class="sr-only"> le lendemain</span></td></tr>
+            <tr data-day="0"><th scope="row">Dim</th><td>13h – 23h</td></tr>
+          </tbody></table>
+          <p class="hours-note">À partir du 2 novembre 2026. Les ouvertures exceptionnelles sont annoncées sur <a href="https://www.instagram.com/panier_dherbi/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+          <div class="hours-actions"><a class="button button-forest" href="https://www.google.com/maps/search/?api=1&amp;query=Panier%20d%27Herbi%2013%20place%20du%20G%C3%A9n%C3%A9ral%20d%27Argence%2044410%20Herbignac" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-pin"/></svg>Itinéraire</a><a class="button button-outline" href="tel:+33666533792"><svg aria-hidden="true"><use href="#i-phone"/></svg>06 66 53 37 92</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · SUIVRE · Le panier sur vos réseaux -->
+    <section id="suivre" class="social-scene" data-scene="le-sac-salue" aria-labelledby="social-title">
+      <div class="canvas social-canvas">
+        <div class="social-head"><div class="social-mascot" aria-hidden="true"><img src="brand/mascot.webp" width="480" height="480" alt="" loading="lazy"></div><div><p class="eyebrow">05 / On reste en contact</p><h2 id="social-title" class="split">SUIVEZ<br>LE PANIER.</h2><p class="social-lead">Nouveautés, horaires exceptionnels et petits mots du magasin : tout passe par les réseaux.</p></div></div>
+        <ul class="social-cards">
+          <li class="social-card"><a href="https://www.instagram.com/panier_dherbi/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><svg aria-hidden="true"><use href="#i-instagram"/></svg></span><strong>Instagram</strong><span>@panier_dherbi</span><em>Suivre <svg aria-hidden="true"><use href="#i-arrow"/></svg></em></a></li>
+          <li class="social-card"><a href="https://www.tiktok.com/@panierdherbi" target="_blank" rel="noopener noreferrer"><span class="social-icon"><svg aria-hidden="true"><use href="#i-tiktok"/></svg></span><strong>TikTok</strong><span>@panierdherbi</span><em>Suivre <svg aria-hidden="true"><use href="#i-arrow"/></svg></em></a></li>
+          <li class="social-card"><a href="https://www.facebook.com/search/top?q=Panier%20D%27Herbi%20Herbignac" target="_blank" rel="noopener noreferrer"><span class="social-icon"><svg aria-hidden="true"><use href="#i-facebook"/></svg></span><strong>Facebook</strong><span>Panier D’Herbi</span><em>Suivre <svg aria-hidden="true"><use href="#i-arrow"/></svg></em></a></li>
+          <li class="social-card social-review"><a href="https://www.google.com/search?q=Panier+d%27Herbi+Herbignac+avis" target="_blank" rel="noopener noreferrer"><span class="social-icon"><svg aria-hidden="true"><use href="#i-star"/></svg></span><strong>Avis Google</strong><span>Un mot sur votre visite</span><em>Donner son avis <svg aria-hidden="true"><use href="#i-arrow"/></svg></em></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 8 · CONTACT · Un numéro, un sourire, une action -->
+    <section id="contact" class="contact-scene" data-scene="treize" aria-labelledby="contact-title">
+      <div class="canvas contact-canvas">
+        <div class="contact-face" aria-hidden="true"><img src="brand/mascot.webp" width="480" height="480" alt="" loading="lazy"><svg class="spark spark-left" viewBox="0 0 40 40"><use href="#i-spark"/></svg><svg class="spark spark-right" viewBox="0 0 40 40"><use href="#i-spark"/></svg></div>
+        <div class="address-block">
+          <h2 id="contact-title"><span class="address-number">13</span><span class="address-words">place du Général d’Argence<br>44410 Herbignac</span></h2>
+          <div class="contact-actions"><a class="button button-forest" href="tel:+33666533792"><svg aria-hidden="true"><use href="#i-phone"/></svg>06 66 53 37 92</a><a class="button button-outline" href="https://www.google.com/maps/search/?api=1&amp;query=Panier%20d%27Herbi%2013%20place%20du%20G%C3%A9n%C3%A9ral%20d%27Argence%2044410%20Herbignac" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-pin"/></svg>Itinéraire</a><a class="button button-outline js-only" href="https://maps.google.com/maps?q=13+place+du+G%C3%A9n%C3%A9ral+d%27Argence%2C+44410+Herbignac&amp;z=17&amp;output=embed" data-action="map" target="_blank" rel="noopener noreferrer">Voir la carte</a><a class="button button-outline" href="mailto:lepanierdeherbi@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>Nous écrire</a></div>
+          <ul class="contact-social"><li><a href="https://www.instagram.com/panier_dherbi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @panier_dherbi"><svg aria-hidden="true"><use href="#i-instagram"/></svg></a></li><li><a href="https://www.tiktok.com/@panierdherbi" target="_blank" rel="noopener noreferrer" aria-label="TikTok @panierdherbi"><svg aria-hidden="true"><use href="#i-tiktok"/></svg></a></li><li><a href="https://www.facebook.com/search/top?q=Panier%20D%27Herbi%20Herbignac" target="_blank" rel="noopener noreferrer" aria-label="Facebook Panier D’Herbi"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a></li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 9 · FOOTER -->
+  <footer class="site-footer">
+    <div class="canvas footer-canvas">
+      <p class="wordmark" aria-hidden="true"><span class="wordmark-line">À très vite.</span><span class="wordmark-fill">À très vite.</span></p>
+      <div class="footer-cols">
+        <div><img class="footer-logo" src="brand/logo-360.webp" width="360" height="180" alt="Panier d’Herbi — Accueil & Service" loading="lazy"><p>Alimentation générale · Épicerie de proximité à Herbignac.</p></div>
+        <div><h3>Navigation</h3><ul><li><a href="#rayons">Les rayons</a></li><li><a href="#livraison">Livraison à domicile</a></li><li><a href="#commande">Comment ça marche</a></li><li><a href="#magasin">Le magasin & horaires</a></li><li><a href="#suivre">Nous suivre</a></li></ul></div>
+        <div><h3>Visite</h3><ul><li>13 place du Général d’Argence</li><li>44410 Herbignac</li><li><a href="tel:+33666533792">06 66 53 37 92</a></li><li><a href="mailto:lepanierdeherbi@gmail.com">lepanierdeherbi@gmail.com</a></li></ul></div>
+        <div><h3>Infos</h3><ul><li><button type="button" class="js-only" data-action="infos">Informations</button></li><li><button type="button" id="motion-toggle" class="js-only" aria-pressed="false">Mettre l’animation en pause</button></li><li><a href="#accueil">Haut de page ↑</a></li></ul></div>
+      </div>
+      <div class="footer-base"><span>© 2026 Panier d’Herbi · Accueil & Service</span><span>Herbignac, Loire-Atlantique</span></div>
+    </div>
+  </footer>
+
+  <dialog id="product-dialog" aria-labelledby="product-title"><button class="dialog-close" type="button" data-close aria-label="Fermer l’aperçu"><svg aria-hidden="true"><use href="#i-close"/></svg></button><div class="preview-media"><img id="preview-image" src="images/epicerie.webp" width="1000" height="750" alt=""></div><div class="preview-copy"><p class="eyebrow">L’univers Panier d’Herbi</p><h2 id="product-title">ÉPICERIE</h2><p id="preview-description"></p><p class="preview-note">Retrouvez les produits disponibles et leurs marques au magasin.</p><a class="button button-forest" href="tel:+33666533792">Poser une question <svg aria-hidden="true"><use href="#i-arrow"/></svg></a><button class="text-button" type="button" data-close>Revenir aux rayons</button></div></dialog>
+  <dialog id="utility-dialog" aria-labelledby="utility-title"><div class="dialog-heading"><img src="brand/mascot.webp" width="480" height="480" alt=""><h2 id="utility-title">Panier d’Herbi</h2><button id="utility-close" type="button" aria-label="Fermer"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div><div id="utility-content"></div></dialog>
+  <noscript><style>.js-only{display:none!important}.product-zoom{pointer-events:none}.mobile-nav{display:none}.desktop-nav{display:flex!important}</style></noscript>
+</body>
+</html>

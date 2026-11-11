@@ -1,0 +1,16 @@
+{
+  "client": "Panier d’Herbi",
+  "selected_model": 1,
+  "selected_name": "Le Panier en Mouvement — Édition signée",
+  "selected_hero": "Le quotidien, en plus simple.",
+  "label_change": "Applied to all packaged campaign products in hero, shelf and service; produce stickers included",
+  "stage": "local_complete_kit",
+  "published": false,
+  "video_generated": false,
+  "browser_qa": "UNVERIFIED",
+  "static_checks": 182,
+  "scale_base": 1024,
+  "max_desktop_scale": 1,
+  "desktop_h1_px": 80,
+  "desktop_basket_px": 620
+}

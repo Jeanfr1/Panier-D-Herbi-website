@@ -1,0 +1,37 @@
+{
+  "city": "Herbignac",
+  "address": "13 place du Général d’Argence, 44410 Herbignac",
+  "phone": "+33666533792",
+  "phone_display": "06 66 53 37 92",
+  "email": "lepanierdeherbi@gmail.com",
+  "instagram": "https://www.instagram.com/panier_dherbi/",
+  "instagram_source": "Supplied current screenshot; older Facebook cover shows another handle",
+  "website": "https://www.panierdeherbi.fr/",
+  "website_fetch": "not accessible via web tool; do not infer current catalogue/checkout availability",
+  "hours": {
+    "priority": "Supplied Instagram notice effective 2 November 2026, winter; overrides summer flyer, avatar and older third-party hours",
+    "mon_tue_thu": "17:30–23:30",
+    "wed": "closed",
+    "fri_sat": "18:00–02:00 next day",
+    "sun": "13:00–23:00"
+  },
+  "delivery": "On request; confirm terms by phone, no 24/7 or fixed-speed guarantee",
+  "sources": [
+    {
+      "type": "supplied business social screenshots",
+      "primary": true
+    },
+    {
+      "url": "https://www.panierdeherbi.fr/",
+      "status": "fetch unavailable"
+    },
+    {
+      "url": "https://www.pagesjaunes.fr/annuaire/herbignac-44/alimentation-generale",
+      "use": "address corroboration only; ambiguous adjacent closure text, do not assert closed"
+    },
+    {
+      "url": "https://www.pappers.fr/entreprise/panier-dherbi-900227927",
+      "use": "address corroboration; no ownership data needed"
+    }
+  ]
+}

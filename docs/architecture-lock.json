@@ -1,0 +1,29 @@
+{
+  "selected_model": 1,
+  "name": "Le Panier en Mouvement — Édition signée",
+  "hero": "LE QUOTIDIEN, / EN PLUS SIMPLE.",
+  "change": "All illustrative product packages have Panier d’Herbi labels",
+  "chapters": [
+    "accueil",
+    "rayons",
+    "service",
+    "magasin",
+    "contact"
+  ],
+  "boundaries": [
+    "shallow plane change from hero",
+    "continuous three-step shelf",
+    "single shallow slope into forest service",
+    "basket-slot SVG openings",
+    "actual facade with one rounded hours-panel corner",
+    "lime mascot/address finish"
+  ],
+  "original_board": "references/Modelo1-Original-Escolhido.png",
+  "revised_board": "references/Modelo1-Rotulos-Panier-D-Herbi.png",
+  "not_reused": [
+    "florist serif and stems",
+    "restaurant waves",
+    "generic cards",
+    "another model’s hero"
+  ]
+}
